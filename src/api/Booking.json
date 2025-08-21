@@ -1,0 +1,34 @@
+{
+  "Room": [
+    {
+      "id": "1",
+      "roomId": "p101",
+      "roomName": "Phòng họp tầng 1",
+      "capacity": 10,
+      "status": "available"
+    },
+    {
+      "id": "e15a",
+      "roomId": "p102",
+      "roomName": "phòng họp",
+      "capacity": "20",
+      "status": "maintenance"
+    },
+    {
+      "id": "5e93",
+      "roomId": "p103",
+      "roomName": "g",
+      "capacity": "3",
+      "status": "available"
+    },
+    {
+      "id": "df24",
+      "roomId": "p104",
+      "roomName": "gf",
+      "capacity": "33",
+      "status": "available"
+    }
+  ],
+  "User": [],
+  "Booking": []
+}
