@@ -1,0 +1,32 @@
+{
+  "user":
+[
+  {
+    "userId": 101,
+    "fullName": "Nguyen Van A",
+    "email": "vana@example.com",
+    "phone": "0901234567",
+    "role": "user",
+    "status": "active",
+    "createdAt": "2025-07-10"
+  },
+  {
+    "userId": 102,
+    "fullName": "Tran Thi B",
+    "email": "thib@example.com",
+    "phone": "0912345678",
+    "role": "admin",
+    "status": "active",
+    "createdAt": "2025-07-12"
+  },
+  {
+    "userId": 103,
+    "fullName": "Le Van C",
+    "email": "vanc@example.com",
+    "phone": "0923456789",
+    "role": "user",
+    "status": "inactive",
+    "createdAt": "2025-07-15"
+  }
+]
+}

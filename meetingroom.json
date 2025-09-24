@@ -1,0 +1,35 @@
+{
+  "meeting":
+  [
+  {
+    "bookingId": 1,
+    "userId": 101,
+    "roomId": "P101",
+    "image": "https://anviethouse.vn/wp-content/uploads/2020/06/Thiet-ke-phong-hop-hien-dai-1-2.jpg",
+    "bookingDate": "2025-08-20",
+    "timeSlot": "08:00-10:00",
+    "status": "pending",
+    "note": "Họp nhóm dự án"
+  },
+  {
+    "bookingId": 2,
+    "userId": 102,
+    "roomId": "P202",
+    "image": "https://anviethouse.vn/wp-content/uploads/2020/03/phong-hop-hien-dai-3.png",
+    "bookingDate": "2025-08-21",
+    "timeSlot": "14:00-16:00",
+    "status": "approved",
+    "note": "Buổi training nội bộ"
+  },
+  {
+    "bookingId": 3,
+    "userId": 103,
+    "roomId": "P303",
+    "image": "https://anviethouse.vn/wp-content/uploads/2018/08/Thiet-ke-van-phong-hien-dai-1-6.jpg",
+    "bookingDate": "2025-08-22",
+    "timeSlot": "09:00-11:00",
+    "status": "rejected",
+    "note": "Họp kín với khách hàng"
+  }
+]
+}

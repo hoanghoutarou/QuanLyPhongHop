@@ -2,13 +2,20 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import React from "react";
+import Header from './component/layout/Header';
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Route, Routes, BrowserRouter } from 'react-router-dom';
+import Home from './component/layout/Home';
+
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
+      {/* <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -27,7 +34,13 @@ function App() {
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
-      </p>
+      </p> */}
+      <BrowserRouter>
+         <Routes>
+            <Route path='/' element={<Home></Home>}></Route>
+         </Routes>
+      </BrowserRouter>
+
     </>
   )
 }
